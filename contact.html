@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contacto — Mª Liliane Recchimurzo Calles. Estudiante de arquitectura en Sevilla. mlrecchimc6@gmail.com · +34 670363074" />
+  <title>Contacto · Liliane Recchimurzo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar scrolled" aria-label="Navegación principal">
+    <a href="index.html" class="nav-logo">
+      L.R.
+      <span>Arquitectura · 2024/2025</span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="projects.html">Proyectos</a></li>
+      <li><a href="about.html">Sobre mí</a></li>
+      <li><a href="contact.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── PAGE HEADER ── -->
+  <header class="page-header container" style="padding-top:calc(72px + 64px);">
+    <p class="label">Disponible para colaboraciones</p>
+    <h1>
+      <span class="big-initial">C</span>ontacto
+    </h1>
+  </header>
+
+  <!-- ── CONTACT LAYOUT ── -->
+  <main class="contact-layout">
+
+    <!-- INFO -->
+    <div class="contact-info reveal">
+      <h2>Hablemos<br>de arquitectura.</h2>
+
+      <div class="contact-detail">
+        <p class="cd-label">Email</p>
+        <p class="cd-value">
+          <a href="mailto:mlrecchimc6@gmail.com">mlrecchimc6@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="contact-detail">
+        <p class="cd-label">Teléfono</p>
+        <p class="cd-value">
+          <a href="tel:+34670363074">+34 670 363 074</a>
+        </p>
+      </div>
+
+      <div class="contact-detail">
+        <p class="cd-label">Ubicación</p>
+        <p class="cd-value">Sevilla, España</p>
+      </div>
+
+      <div class="contact-detail">
+        <p class="cd-label">Institución</p>
+        <p class="cd-value">ETSAS · Universidad de Sevilla</p>
+      </div>
+
+      <div class="contact-detail">
+        <p class="cd-label">Prácticas actuales</p>
+        <p class="cd-value">EDDEA Arquitectura y Urbanismo</p>
+      </div>
+
+      <div class="social-row">
+        <a href="mailto:mlrecchimc6@gmail.com" class="social-link" aria-label="Enviar email">Email</a>
+        <a href="#" class="social-link" aria-label="LinkedIn de Liliane Recchimurzo">LinkedIn</a>
+        <a href="#" class="social-link" aria-label="Instagram de Liliane Recchimurzo">Instagram</a>
+      </div>
+
+      <!-- Decorative grid element -->
+      <div style="margin-top:56px;" aria-hidden="true">
+        <div class="img-placeholder ph-03" style="aspect-ratio:4/3;max-width:280px;opacity:0.7;"></div>
+        <p style="font-family:'Barlow Condensed',sans-serif;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-light);margin-top:8px;">
+          Club Piragüismo Zaragoza · 2024
+        </p>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-form-wrap reveal reveal-delay-2">
+      <h3>Enviar un mensaje</h3>
+
+      <form class="contact-form" novalidate aria-label="Formulario de contacto">
+
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+            required
+            autocomplete="name"
+            aria-required="true"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="tu@email.com"
+            required
+            autocomplete="email"
+            aria-required="true"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="asunto">Asunto</label>
+          <input
+            type="text"
+            id="asunto"
+            name="asunto"
+            placeholder="Motivo del contacto"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="6"
+            placeholder="Cuéntame sobre tu proyecto o propuesta…"
+            required
+            aria-required="true"
+          ></textarea>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn btn-fill">
+            Enviar mensaje
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </button>
+        </div>
+
+      </form>
+
+      <!-- Nota de privacidad -->
+      <p style="margin-top:24px;font-family:'Barlow Condensed',sans-serif;font-size:0.62rem;letter-spacing:0.1em;color:var(--text-light);line-height:1.6;">
+        Tus datos serán utilizados únicamente para responder a tu consulta y no se compartirán con terceros.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div>
+      <p class="footer-name">Liliane Recchimurzo</p>
+      <p class="footer-sub">Arquitectura · 2024/2025</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="projects.html">Proyectos</a></li>
+      <li><a href="about.html">Sobre mí</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    </ul>
+    <p class="footer-copy">mlrecchimc6@gmail.com</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
